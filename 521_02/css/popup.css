@@ -1,0 +1,537 @@
+.sm_l_img {
+    position: absolute;
+}
+.l_img {
+    border-radius: 0px;
+}
+
+.sm_l_txt {
+    position: absolute;
+    /* top: 64px; */
+    text-align: justify;
+    width: 480px !important;
+    /* bottom: inherit; */
+}
+
+
+.sm_l_confirm {
+    position: absolute;
+    top: 204px;
+    left: 343px;
+    width: 143px;
+    height: 72px;
+    background: url(../images/btn_confirm.png) no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.org_page {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.org_page.on {
+    display: block;
+}
+
+.org_page .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.7);
+}
+
+.page1 {
+    background: url(../images/guide1.png) no-repeat;
+    background-size: 100%;
+}
+.page1 .balloon {
+    top: 370px;
+    left: 1300px;
+}
+.page1 .obj {
+    position: absolute;
+    background: url(../images/img01-1.png) no-repeat;
+    background-size: 100%;
+    top: 430px;
+    left: 788px;
+    width: 200px;
+    border-radius: 8px;
+    height: 399px;
+}
+.page1 .arrow {
+    background: url(../images/arr01.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 600px;
+    left: 1132px;
+    width: 212px;
+    height: 342px;
+}
+.page1 .txt {
+    position: absolute;
+    top: 495px;
+    left: 187px;
+    color: #ffffff;
+    font-size: 23px;
+    font-family: 'BMJUA';
+    line-height: 32px;
+}
+.page1 .dotted {
+    background: url(../images/shape1.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 532px;
+    left: 1030px;
+    width: 170px;
+    height: 173px;
+}
+.page1 .hand {
+    background: url(../images/icon_click.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 510px;
+    left: 286px;
+    width: 100px;
+    height: 75px;
+    z-index: 5;
+}
+.page1 .obj2 {
+    position: absolute;
+    background: url(../images/drag_img01.png) no-repeat;
+    background-size: 100%;
+    top: 520px;
+    left: 1429px;
+    width: 148px;
+    border-radius: 8px;
+    height: 209px;
+}
+
+
+.page2 {
+    background: url(../images/guide2.png) no-repeat;
+    background-size: 100%;
+}
+.page2 .balloon {
+    top: 480px;
+    left: 340px;
+}
+.page2 .balloon_lm:before {
+    top: 22px;
+}
+.page2 .obj {
+    position: absolute;
+    background: url(../images/icon_click.png) no-repeat;
+    background-size: 100%;
+    top: 418px;
+    left: 807px;
+    width: 112px;
+    height: 103px;
+    transform: scaleX(-1);
+}
+.page2 .obj2 {
+    position: absolute;
+    background: url(../images/icon_click.png) no-repeat;
+    background-size: 100%;
+    top: 719px;
+    left: 1028px;
+    width: 112px;
+    height: 103px;
+}
+.page2 .txt {
+    position: absolute;
+    top: 691px;
+    left: 99px;
+    color: #ffffff;
+    font-size: 23px;
+    font-family: 'BMJUA';
+    line-height: 32px;
+}
+.page2 .dotted {
+    background: url(../images/shape3.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 565px;
+    left: 480px;
+    width: 1350px;
+    height: 127px;
+}
+
+.page3 {
+    background: url(../images/guide3.png) no-repeat;
+    background-size: 100%;
+}
+.page3 .balloon {
+    top: 610px;
+    left: 1178px;
+}
+.page3 .balloon_lm:before {
+    top: 42px;
+}
+.page3 .obj1 {
+    position: absolute;
+    background: url(../images/img03-1.png) no-repeat;
+    background-size: 100%;
+    top: 410px;
+    left: 856px;
+    width: 161px;
+    transform: rotate(-9deg);
+    border-radius: 8px;
+    height: 292px;
+}
+.page3 .obj2 {
+    position: absolute;
+    background: url(../images/stick_img.png) no-repeat;
+    background-size: 100%;
+    top: 515px;
+    left: 666px;
+    width: 304px;
+    border-radius: 8px;
+    height: 237px;
+    transform: rotate(10deg);
+}
+.page3 .obj3 {
+    position: absolute;
+    background: url(../images/stick_img.png) no-repeat;
+    background-size: 100%;
+    top: 511px;
+    left: 1092px;
+    width: 304px;
+    border-radius: 8px;
+    height: 27px;
+    transform: rotate(170deg);
+}
+
+.page3 .hand {
+    background: url(../images/icon_click.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 655px;
+    left: 1015px;
+    width: 100px;
+    height: 75px;
+    z-index: 5;
+}
+
+
+.page4 {
+    background: url(../images/guide2.png) no-repeat;
+    background-size: 100%;
+}
+.page4 .balloon {
+    top: 318px;
+    left: 490px;
+}
+.page4 .balloon_lm:before {
+    top: 40px;
+}
+.page4 .obj1 {
+    position: absolute;
+    background: url(../images/ball_img_02.png) no-repeat;
+    background-size: 100%;
+    top: 318px;
+    left: 106px;
+    width: 267px;
+    height: 299px;
+}
+.page4 .obj2 {
+    position: absolute;
+    background: url(../images/water01.png) no-repeat;
+    background-size: 100%;
+    top: 620px;
+    left: 184px;
+    width: 132px;
+    height: 499px;
+}
+
+.page4 .arrow {
+    background: url(../images/arrow3.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 508px;
+    left: 416px;
+    width: 290px;
+    height: 330px;
+    transform: rotate(-71deg);
+}
+.page4 .txt {
+    position: absolute;
+    top: 335px;
+    left: 204px;
+    color: #ffffff;
+    font-size: 23px;
+    font-family: 'BMJUA';
+    line-height: 32px;
+}
+.page4 .dotted {
+    background: url(../images/shape4.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 515px;
+    left: 720px;
+    width: 870px;
+    height: 160px;
+}
+.page4 .hand {
+    background: url(../images/icon_click.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 770px;
+    left: 375px;
+    width: 100px;
+    height: 75px;
+    z-index: 5;
+}
+
+.guide .hand {
+    z-index: 201;
+}
+
+.guide .pageSlide {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    text-align: center;
+}
+
+.guide .pageSlide .prev {
+    display: inline-block;
+    background: url(../images/prev.png) no-repeat;
+    background-size: 100%;
+    width: 40px;
+    height: 48px;
+    cursor: pointer;
+}
+.guide .pageSlide .prev.on {
+    background: url(../images/prev_h.png) no-repeat;
+    background-size: 100%;
+    pointer-events: none;
+}
+
+.guide .pageSlide .pgs {
+    display: inline-block;
+    padding: 0 15px;
+    vertical-align: 8px;
+}
+.guide .pageSlide .pgs .pgb {
+    display: inline-block;
+    background: url(../images/pgs.png) no-repeat;
+    background-size: 100%;
+    width: 70px;
+    height: 28px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.guide .pageSlide .pgs .pgb.on {
+    background: url(../images/pgs_h.png) no-repeat;
+    background-size: 100%;
+}
+
+.guide .pageSlide .next {
+    display: inline-block;
+    background: url(../images/next.png) no-repeat;
+    background-size: 100%;
+    width: 40px;
+    height: 48px;
+    cursor: pointer;
+}
+.guide .pageSlide .next.on {
+    background: url(../images/next_h.png) no-repeat;
+    background-size: 100%;
+    pointer-events: none;
+}
+
+@keyframes ani {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .ani {
+    animation: ani 2s infinite;
+  }
+
+.moving {
+    animation: moving 2.7s infinite;
+}
+
+@keyframes moving {
+    0% {
+        top: 640px;
+        left: 1316px;
+        display: block;
+    }
+    100% {
+        top: 640px;
+        left: 1116px;
+        display: none;
+    }
+}
+
+.moving2 {
+    animation: moving2 2.7s infinite;
+}
+
+@keyframes moving2 {
+    0% {
+        top: 660px;
+        left: 450px;
+        display: block;
+    }
+    100% {
+        top: 610px;
+        left: 1080px;
+        display: none;
+    }
+}
+
+.moving3 {
+    animation: moving3 2.7s infinite;
+}
+
+@keyframes moving3 {
+    0% {
+        top: 465px;
+        left: 305px;
+        display: block;
+    }
+    100% {
+        top: 465px;
+        left: 595px;
+        display: none;
+    }
+}
+
+.moving4 {
+    animation: moving4 2.7s infinite;
+}
+
+@keyframes moving4 {
+    0% {
+        top: 770px;
+        left: 375px;
+        display: block;
+    }
+    100% {
+        top: 570px;
+        left: 605px;
+        display: none;
+    }
+}
+
+
+.messageBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #F2F2F2;
+    width: 420px;
+    height: 190px;
+    border-radius: 15px;
+    font-family: "BMJUA";
+    font-size: 25px;
+    line-height: 63px;
+    text-align: center;
+    border: 2px solid #8b8b8b;
+    display: none;
+}
+
+.messageBox .openBtn {
+    display: inline-block;
+    background: #63D5D9;
+    width: 130px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 3px 2px 1px #3a5f60;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    left: 60px;
+}
+
+.messageBox .downBtn {
+    display: inline-block;
+    background: #63D5D9;
+    width: 130px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 3px 2px 1px #3a5f60;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    left: 230px;
+}
+
+.messageBox .close {
+    background: url(../../images/icon/btn_close.png) no-repeat;
+    background-size: 100%;
+    width: 40px;
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.balloon_rm:before {
+    content: '';
+    /* background: url(../smart/images/6-1/balloontail.png) no-repeat; */
+    background: url(../images/popup/list_arrw.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: -24px;
+    top: 42px;
+    width: 30px;
+    height: 24px;
+    transform: rotate(-90deg);
+}
+
+.right_btn {
+    position: absolute;
+    top: 165px;
+    left: 663px;
+    width: 71px;
+    height: 72px;
+    background: url(../images/right.png) no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    font-family: 'BMJUA';
+}
+.left_btn {
+    position: absolute;
+    top: 165px;
+    left: 1242px;
+    width: 71px;
+    height: 72px;
+    background: url(../images/left.png) no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    font-family: 'BMJUA';
+}

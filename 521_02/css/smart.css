@@ -1,0 +1,431 @@
+@charset "utf-8";
+
+#container {
+    position: relative;
+    top: -8px;
+    left: -8px;
+    width: 1920px;
+    height: 1080px;
+}
+#container .contentsWrap {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff;
+    border-radius: 76px;
+    -webkit-box-shadow: 0px 5px 5px 2px #ccc;
+    box-shadow: 0px 5px 5px 2px #ccc; */
+    /* overflow: hidden; */
+    overflow: hidden;
+}
+
+.page4,
+.page3,
+.page2,
+.page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    /* border-radius: 76px;
+    -webkit-box-shadow: 0px 5px 5px 2px #ccc;
+    box-shadow: 0px 5px 5px 2px #ccc;
+    transform: perspective(1px) translateZ(0);
+    backface-visibility: hidden; */
+    opacity: 1;
+    display: none;
+    overflow: hidden;
+}
+.page {
+    background: url(../images/popup/dim.png) no-repeat;
+    background-size: 118%;
+}
+.page4,
+.page3,
+.page2 {
+    background: #f1f2f3;
+}
+.page4.on,
+.page3.on,
+.page2.on,
+.page.on {
+    display: block;
+    /* -webkit-animation: pageOn 1s ease-out forwards;
+    animation: pageOn 1s ease-out forwards; */  
+}
+
+.popup_box {
+    position: absolute;
+    top: 44.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1520px;
+    height: 760px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 4px solid #dadada;
+    z-index: 100;
+}
+
+.title {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 330px;
+    height: 94px;
+    background-color: #008dde;
+    border-radius: 0 0 30px 30px;
+    display: flex;
+}
+
+.title span {
+    font-family: '나눔스퀘어라운드OTFB';
+    font-size: 52px;
+    color: #fff;
+    line-height: 82px;
+}
+
+.title_icon {
+    width: 38px;
+    height: 50px;
+    margin-top: 17px;
+    margin-left: 41px;
+    margin-right: 21px;
+}
+
+.content {
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.content_text {
+    margin: 0;
+    text-align: center;
+    font-family: 'PRETENDARD-BOLD';
+    font-size: 80px;
+}
+
+.start_btn {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.contents_section {
+    position: absolute;
+    top: 44.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1520px;
+    height: 760px;
+}
+
+/* page2 */
+.explanation_box2,
+.explanation_box1 {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    padding: 0 30px;
+    height: 82px;
+    background-color: #373737;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    line-height: 82px;
+    border-radius: 30px;
+    pointer-events: none;
+    color: #fff;
+    font-family: '나눔스퀘어라운드OTFB';
+}
+.explanation_box2:after,
+.explanation_box1:after {
+	content: '';
+	position: absolute;
+	bottom: 3px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #373737;
+	border-bottom: 0;
+	margin-left: -20px;
+	margin-bottom: -20px;
+}
+
+.img01 {
+    position: absolute;
+    top: 400px;
+    left: 340px;
+}
+
+.click_img[data-index="1"] {
+    position: absolute;
+    top: 210px;
+    left: 1240px;
+    cursor: pointer;
+}
+.click_img[data-index="2"] {
+    position: absolute;
+    top: 610px;
+    left: 1240px;
+    cursor: pointer;
+}
+
+.warning_dim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(69, 69, 69, 0.5);
+    z-index: 1000;
+    display: none;
+}
+.warning_popup {
+    position: absolute;
+    top: 390px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1800px;
+    height: 300px;
+    background-color: #fff;
+    font-family: '나눔스퀘어라운드OTFB';
+    text-align: center;
+    font-size: 48px;
+    line-height: 206px;
+    border: 5px solid #784e28;
+    z-index: 1000;
+    border-radius: 50px;
+}
+
+.popup_close3 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: url(../images/popup-close.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.blink {
+    -webkit-animation: blinking 600ms linear infinite;
+    animation: blinking 600ms linear infinite;
+}
+
+@keyframes blinking {
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.popup_img04,
+.popup_img03,
+.popup_img02,
+.popup_img01 {
+    width: 250px;
+}
+
+/* popup */
+.popup_btn {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 250px;
+    cursor: pointer;
+    display: none;
+}
+.popup_section {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 1380px;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border: 5px solid #784e28;
+    border-radius: 38px;
+    display: none;
+    z-index: 999;
+}
+.popup_section_title {
+    position: absolute;
+    top: -91px;
+    left: 38px;
+    background: #784e28;
+    width: 180px;
+    height: 82px;
+    border-radius: 32px 32px 0 0;
+    border: 5px solid #784e28;
+    color: #fff;
+    text-align: center;
+    font-family: 'PRETENDARD-BOLD';
+    font-size: 42px;
+    line-height: 89px;
+}
+.popup_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url(../images/popup-close.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.popup_text {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    font-family: 'PRETENDARD-BOLD';
+    align-items: center;
+    margin-left: 90px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.popup_text:first-of-type {
+    margin-top: 123px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* popup2 */
+.popup_btn2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 250px;
+    cursor: pointer;
+}
+.p_popup {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 1380px;
+    height: 710px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border: 5px solid #909090;
+    border-radius: 38px;
+    display: none;
+    z-index: 999;
+    overflow: hidden;
+}
+.p_popup .title {
+    position: absolute;
+    top: 0px;
+    left: 689px;
+    width: 101%;
+    height: 101px;
+    background-color: #909090;
+    border-radius: 30px 30px 0 0;
+}
+.p_popup .title p {
+    color: #fff;
+    font-family: '나눔스퀘어라운드OTFB';
+    text-align: center;
+    font-size: 40px;
+    line-height: 104px;
+    margin: 0 0 0 20px;
+}
+.p_close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    width: 60px;
+}
+.contents {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    height: 420px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.red_arr {
+    position: absolute;
+    top: 170px;
+    left: 650px;
+    width: 100px;
+}
+.line {
+    position: absolute;
+    top: 80px;
+    right: 500px;
+    width: 2px;
+    height: 170px;
+    background: #000;
+    transform: rotate(-40deg);
+}
+.line_t {
+    transform: rotate(40deg);
+    font-family: '나눔스퀘어라운드OTFB';
+    text-align: center;
+    font-size: 26px;
+    margin: -40px -10px 0 -6px;
+}
+.p_popup_t {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: '나눔스퀘어라운드OTFB';
+    font-size: 50px;
+    width: max-content;
+}
+
+/* page3 */
+.drag_obj[data-drag-num='1'] {
+    position: absolute;
+    top: 302px;
+    left: 259px;
+    background: url(../images/img05.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 384px;
+    height: 384px;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.drop_obj[data-drop-num="1"] {
+    position: absolute;
+    top: 110px;
+    left: 950px;
+    width: 890px;
+    height: 730px;
+}
+.drop_img {
+    position: absolute;
+    top: 200px;
+    left: 280px;
+}

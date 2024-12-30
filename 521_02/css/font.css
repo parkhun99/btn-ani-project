@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'SCDREAM5';
+    src: url('../fonts/SCDREAM5.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SCDREAM6';
+    src: url('../fonts/SCDREAM6.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SCDREAM9';
+    src: url('../fonts/SCDREAM9.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PRETENDARD-MEDIUM';
+    src: url('../fonts/PRETENDARD-MEDIUM.TTF') format('woff');
+}
+@font-face {
+    font-family: 'PRETENDARD-BOLD';
+    src: url('../fonts/Pretendard-Bold.woff');
+}
+@font-face {
+    font-family: "나눔고딕";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NanumGothicR.woff");
+}
+
+@font-face {
+    font-family: 'SCDREAM5';
+    src: url('../fonts/SCDREAM5.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SCDREAM6';
+    src: url('../fonts/SCDREAM6.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SCDREAM9';
+    src: url('../fonts/SCDREAM9.woff') format('woff');
+}
+
+@font-face {
+    font-family: "나눔고딕";
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/NanumGothicB.woff");
+}
+@font-face {
+    font-family: "나눔고딕";
+    font-weight: 900;
+    font-style: normal;
+    src: url("../fonts/NanumGothicEB.woff");
+}
+@font-face {
+    font-family: "나눔명조";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NanumMyeongjo.woff");
+}
+@font-face {
+    font-family: "나눔명조";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/NanumMyeongjoExtraBold.woff");
+}
+@font-face {
+    font-family: "나눔스퀘어";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NanumSquare_acR.woff");
+}
+@font-face {
+    font-family: "나눔스퀘어";
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/NanumSquare_acB.woff");
+}
+@font-face {
+    font-family: "나눔스퀘어";
+    font-weight: 900;
+    font-style: normal;
+    src: url("../fonts/NanumSquare_acEB.woff");
+}
+@font-face {
+    font-family: "나눔스퀘어라운드";
+    font-weight: 100;
+    font-style: normal;
+    src: url("../fonts/NanumSquareRoundL.woff");
+}
+@font-face {
+    font-family: "나눔스퀘어라운드";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NanumSquareRoundR.woff");
+}
+@font-face {
+    font-family: "나눔스퀘어라운드";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/NanumSquareRoundB.woff");
+}
+@font-face {
+    font-family: "나눔스퀘어라운드OTFB";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NanumSquareRoundOTFB.woff");
+}
+@font-face {
+    font-family: "노토산스";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NotoSansCJKkr-Medium.woff");
+}
+@font-face {
+    font-family: "노토산스";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/NotoSansCJKkr-Bold.woff");
+}
+@font-face {
+    font-family: "노토산스";
+    font-weight: 100;
+    font-style: normal;
+    src: url("../fonts/NotoSansCJKkr-Light.woff");
+}
+@font-face {
+    font-family: "티머니둥근바람";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/TmoneyRoundWindRegular.woff");
+}
+@font-face {
+    font-family: "티머니둥근바람";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/TmoneyRoundWindExtraBold.woff");
+}
+@font-face {
+    font-family: "배민주아";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/BMJUA.woff");
+}
+@font-face {
+    font-family: "배민도현";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/BMDH.woff");
+}
+@font-face {
+    font-family: "카페다정";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Cafe24Danjunghae.woff");
+}
+@font-face {
+    font-family: "잘난체";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Jalnan.woff");
+}
+@font-face {
+    font-family: "나눔백의의천사";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NanumSBE.woff");
+}
+@font-face {
+    font-family: "나눔중학생";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NanumSMS.woff");
+}
+@font-face {
+    font-family: "닉스고딕";
+    font-weight: 100;
+    font-style: normal;
+    src: url("../fonts/NIXGONL.woff");
+}
+@font-face {
+    font-family: "닉스고딕";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/NIXGONM.woff");
+}
+@font-face {
+    font-family: "닉스고딕";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/NIXGONB.woff");
+}
+@font-face {
+    font-family: "에스코어드림";
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/SCDB.woff");
+}
+@font-face {
+    font-family: "에스코어드림";
+    font-weight: 900;
+    font-style: normal;
+    src: url("../fonts/SCDEB.woff");
+}
+@font-face {
+    font-family: "원모바일";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/ONEMobilePOP.woff");
+}
+@font-face {
+    font-family: "쥐마켓산스";
+    font-weight: 100;
+    font-style: normal;
+    src: url("../fonts/GmarketSansTTFLight.woff");
+}
+@font-face {
+    font-family: "쥐마켓산스";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/GmarketSansTTFMedium.woff");
+}
+@font-face {
+    font-family: "쥐마켓산스";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/GmarketSansTTFBold.woff");
+}
+@font-face {
+    font-family: "쿠키런";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/CookieRun-Regular.woff");
+}
+@font-face {
+    font-family: "BMJUA";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/BMJUA.woff");
+}
